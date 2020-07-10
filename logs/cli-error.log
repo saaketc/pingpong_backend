@@ -1,0 +1,53 @@
+2020-06-30 07:13:04 Error: [Error] Class 'Router' not found in D:\Learning\yocket\pingpong\config\routes.php on line 55
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:934
+- D:\Learning\yocket\pingpong\config\routes.php:91
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:164
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:393
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:146
+- D:\Learning\yocket\pingpong\bin\cake.php:12
+
+
+
+2020-06-30 07:14:26 Error: [Error] Call to a member function scope() on null in D:\Learning\yocket\pingpong\config\routes.php on line 55
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:934
+- D:\Learning\yocket\pingpong\config\routes.php:91
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:164
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:393
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:146
+- D:\Learning\yocket\pingpong\bin\cake.php:12
+
+
+
+2020-06-30 07:15:03 Error: [ParseError] syntax error, unexpected '}', expecting end of file in D:\Learning\yocket\pingpong\config\routes.php on line 91
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:393
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:146
+- D:\Learning\yocket\pingpong\bin\cake.php:12
+
+
+
+2020-06-30 07:38:14 Error: [RuntimeException] Cannot apply 'csrf' middleware or middleware group. Use registerMiddleware() to register middleware. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php on line 991
+Stack Trace:
+- D:\Learning\yocket\pingpong\config\routes.php:64
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:934
+- D:\Learning\yocket\pingpong\config\routes.php:92
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:164
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:393
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:146
+- D:\Learning\yocket\pingpong\bin\cake.php:12
+
+
+
+2020-06-30 13:13:21 Error: [Error] Call to a member function setExtensions() on null in D:\Learning\yocket\pingpong\config\routes.php on line 102
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:934
+- D:\Learning\yocket\pingpong\config\routes.php:104
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:164
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:393
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Console\CommandRunner.php:146
+- D:\Learning\yocket\pingpong\bin\cake.php:12
+
+
+

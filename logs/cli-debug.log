@@ -1,0 +1,26 @@
+2020-06-30 07:14:26 Notice: Notice (8): Undefined variable: routes in [D:\Learning\yocket\pingpong\config\routes.php, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+Cake\Http\BaseApplication::{closure}() - ROOT\config\routes.php, line 55
+Cake\Routing\RouteBuilder::scope() - CORE\src\Routing\RouteBuilder.php, line 934
+require - ROOT\config\routes.php, line 91
+Cake\Http\BaseApplication::routes() - CORE\src\Http\BaseApplication.php, line 164
+Cake\Console\CommandRunner::loadRoutes() - CORE\src\Console\CommandRunner.php, line 393
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 146
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-06-30 13:13:21 Notice: Notice (8): Undefined variable: routes in [D:\Learning\yocket\pingpong\config\routes.php, line 102]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+Cake\Http\BaseApplication::{closure}() - ROOT\config\routes.php, line 102
+Cake\Routing\RouteBuilder::scope() - CORE\src\Routing\RouteBuilder.php, line 934
+require - ROOT\config\routes.php, line 104
+Cake\Http\BaseApplication::routes() - CORE\src\Http\BaseApplication.php, line 164
+Cake\Console\CommandRunner::loadRoutes() - CORE\src\Console\CommandRunner.php, line 393
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 146
+[main] - ROOT\bin\cake.php, line 12
+
+
+
