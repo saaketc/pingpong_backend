@@ -4310,3 +4310,797 @@ Request URL: /api/users/feed.json
 Referer URL: http://localhost:8080/feed
 
 
+2020-07-10 15:08:28 Error: [Cake\Http\Exception\MethodNotAllowedException] Method Not Allowed in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\ServerRequest.php on line 1655
+Stack Trace:
+- D:\Learning\yocket\pingpong\src\Controller\UsersController.php:201
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/feed.json?userId=14
+Referer URL: http://localhost:8080/feed
+
+
+2020-07-10 15:08:28 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users
+Referer URL: http://localhost:8080/feed
+
+
+2020-07-10 15:08:33 Error: [Cake\Http\Exception\MethodNotAllowedException] Method Not Allowed in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\ServerRequest.php on line 1655
+Stack Trace:
+- D:\Learning\yocket\pingpong\src\Controller\UsersController.php:201
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/feed.json?userId=14
+Referer URL: http://localhost:8080/feed
+
+
+2020-07-10 15:08:34 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users
+Referer URL: http://localhost:8080/feed
+
+
+2020-07-10 15:09:02 Error: [Cake\Http\Exception\MethodNotAllowedException] Method Not Allowed in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\ServerRequest.php on line 1655
+Stack Trace:
+- D:\Learning\yocket\pingpong\src\Controller\UsersController.php:201
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/feed.json?userId=14
+Referer URL: http://localhost:8080/feed
+
+
+2020-07-10 15:09:03 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users
+Referer URL: http://localhost:8080/feed
+
+
+2020-07-10 15:09:08 Error: [Cake\Http\Exception\MethodNotAllowedException] Method Not Allowed in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\ServerRequest.php on line 1655
+Stack Trace:
+- D:\Learning\yocket\pingpong\src\Controller\UsersController.php:201
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/feed.json?userId=14
+Referer URL: http://localhost:8080/feed
+
+
+2020-07-10 15:09:08 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users
+Referer URL: http://localhost:8080/feed
+
+
+2020-07-10 18:39:55 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/function String() { [native code] }.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/function String() { [native code] }.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/function%20String()%20%7B%20%5Bnative%20code%5D%20%7D.json
+Referer URL: http://localhost:8081/profile?user=1
+
+
+2020-07-10 18:40:03 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/function String() { [native code] }.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/function String() { [native code] }.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/function%20String()%20%7B%20%5Bnative%20code%5D%20%7D.json
+Referer URL: http://localhost:8081/profile?user=1
+
+
+2020-07-10 18:41:26 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/undefined.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/undefined.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/undefined.json
+Referer URL: http://localhost:8081/profile?user=1
+
+
+2020-07-10 18:58:12 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/undefined.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/undefined.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/undefined.json
+Referer URL: http://localhost:8081/profile?user=dW5kZWZpbmVk
+
+
+2020-07-10 18:58:52 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/undefined.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/undefined.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/undefined.json
+Referer URL: http://localhost:8081/profile?user=dW5kZWZpbmVk
+
+
+2020-07-10 19:21:03 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:21:12 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:21:31 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:21:40 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:21:48 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:22:02 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:22:07 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:22:17 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:22:18 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:22:21 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:22:23 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/ée.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/ée.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/%C2%9E%C3%A9e.json
+Referer URL: http://localhost:8081/profile?user
+
+
+2020-07-10 19:30:45 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/function encode(item) {  return window.btoa(item);}.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/function encode(item) {  return window.btoa(item);}.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/function%20encode(item)%20%7B%20%20return%20window.btoa(item);%7D.json
+Referer URL: http://localhost:8081/profile
+
+
+2020-07-10 19:30:54 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/dW5kZWZpbmVk.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/dW5kZWZpbmVk.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/dW5kZWZpbmVk.json
+Referer URL: http://localhost:8081/profile
+
+
+2020-07-10 19:30:54 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/dW5kZWZpbmVk.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/dW5kZWZpbmVk.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/dW5kZWZpbmVk.json
+Referer URL: http://localhost:8081/profile
+
+
+2020-07-10 19:31:17 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/Mw==.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/Mw==.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/Mw==.json
+Referer URL: http://localhost:8081/profile?user=3
+
+
+2020-07-10 19:31:23 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/dW5kZWZpbmVk.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/dW5kZWZpbmVk.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/dW5kZWZpbmVk.json
+Referer URL: http://localhost:8081/profile
+
+
+2020-07-10 19:44:41 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/api/users/undefined.json" could not be found. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 211
+Exception Attributes: array (
+  'url' => '/api/users/undefined.json',
+)
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Router.php:228
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:143
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/undefined.json
+Referer URL: http://localhost:8081/profile?user=dW5kZWZpbmVk
+
+
+2020-07-11 09:19:43 Error: [InvalidArgumentException] Expression is missing operator (IS, IS NOT) with `null` value. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php on line 782
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php:711
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php:133
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Query.php:2155
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Query.php:936
+- D:\Learning\yocket\pingpong\src\Controller\UsersController.php:25
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users
+Referer URL: http://localhost:8081/followPeople
+
+
+2020-07-11 18:24:06 Error: [InvalidArgumentException] Expression is missing operator (IS, IS NOT) with `null` value. in D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php on line 782
+Stack Trace:
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php:711
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Expression\QueryExpression.php:133
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Query.php:2155
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Database\Query.php:936
+- D:\Learning\yocket\pingpong\src\Controller\UsersController.php:208
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\src\Middleware\CorsMiddleware.php:20
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- D:\Learning\yocket\pingpong\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\Learning\yocket\pingpong\webroot\index.php:40
+
+Request URL: /api/users/feed.json
+Referer URL: http://localhost:8081/feed
+
+

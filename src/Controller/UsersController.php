@@ -20,9 +20,14 @@ class UsersController extends AppController
     {
         // $users = $this->paginate($this->Users);
         $users = $this->Users->find('all');
+        $id = $this->request->getQuery('id');
+        $following = $this->Users->find()
+            ->where(['id' => $id])
+            ->contain(['ChildUsers'])
+            ->first();
 
         $response = $this->response->withType('application/json')
-            ->withStringBody(json_encode(['users' => $users]));
+            ->withStringBody(json_encode(['users' => $users, 'following' => $following->child_users]));
         // $this->set('users', $users);
         // $this->viewBuilder()->setOption('serialize', 'users');
         return $response;
@@ -114,47 +119,45 @@ class UsersController extends AppController
         $email = $this->request->getData('email');
         $password = $this->request->getData('password');
 
-        $user = $this->Users->find()->where(['email'=> $email, 'password'=> $password])->first();
-        if(!$user){
-          $this->set(
-              ['message' => 'No user found',
-                'user'=> $user
-            ],
-          );
-           $this->viewBuilder()->setOption('serialize', ['message', 'user']);
-        }
-        else{
+        $user = $this->Users->find()->where(['email' => $email, 'password' => $password])->first();
+        if (!$user) {
+            $this->set(
+                ['message' => 'No user found',
+                    'user' => $user,
+                ],
+            );
+            $this->viewBuilder()->setOption('serialize', ['message', 'user']);
+        } else {
             $payloadData = ['user_id' => $user->id, 'firstName' => $user->firstName, 'lastName' => $user->lastName];
 
             // Create token header as a JSON string
             $header = json_encode(['typ' => 'JWT', 'alg' => 'HS256']);
-    
+
             // Create token payload as a JSON string
             $payload = json_encode($payloadData);
-    
+
             // Encode Header to Base64Url String
             $base64UrlHeader = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($header));
-    
+
             // Encode Payload to Base64Url String
             $base64UrlPayload = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($payload));
-    
+
             // Create Signature Hash
             $signature = hash_hmac('sha256', $base64UrlHeader . "." . $base64UrlPayload, $key, true);
-    
+
             // Encode Signature to Base64Url String
             $base64UrlSignature = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($signature));
-    
+
             // Create JWT
             $jwtToken = $base64UrlHeader . "." . $base64UrlPayload . "." . $base64UrlSignature;
-    
+
             $this->set([
                 'message' => 'Successfully logged in!',
                 'token' => $jwtToken,
             ]);
-    
+
             $this->viewBuilder()->setOption('serialize', ['token', 'message']);
         }
-       
 
     }
 
