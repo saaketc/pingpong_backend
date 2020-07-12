@@ -5,6 +5,14 @@
  * Note: It is not recommended to commit files with credentials such as app_local.php
  * into source code version control.
  */
+
+if (!defined('RDS_HOSTNAME')) {
+    define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']);
+    define('RDS_USERNAME', $_SERVER['RDS_USERNAME']);
+    define('RDS_PASSWORD', $_SERVER['RDS_PASSWORD']);
+    define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
+  }
+
 return [
     /*
      * Debug Level:
@@ -36,7 +44,7 @@ return [
      */
     'Datasources' => [
         'default' => [
-            'host' => 'localhost',
+           'host' => RDS_HOSTNAME,
             /*
              * CakePHP will use the default DB port based on the driver selected
              * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
@@ -44,10 +52,9 @@ return [
              */
             //'port' => 'non_standard_port_number',
 
-            'username' => 'root',
-            'password' => '',
-
-            'database' => 'pingpong',
+            'username' => RDS_USERNAME,
+            'password' => RDS_PASSWORD,
+            'database' => RDS_DB_NAME,
             /**
              * If not using the default 'public' schema with the PostgreSQL driver
              * set it here.
